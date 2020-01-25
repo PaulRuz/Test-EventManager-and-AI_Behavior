@@ -1,7 +1,5 @@
-namespace 02Test.Assets.Scripts.Interfaces
-{
-    public class ISetDamage
-    {
-        
+namespace ProjectA.Interfaces { 
+    public interface ISetDamage {
+        void ApplyDamage(int damage);    
     }
 }
